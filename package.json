@@ -1,0 +1,21 @@
+{
+  "name": "udemygraphql",
+  "version": "1.0.0",
+  "description": "udemy course on graphql",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.0",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.5",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "prettier": "^1.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,jsx}'"
+  },
+  "author": "j nick baughan",
+  "license": "ISC"
+}
