@@ -1,6 +1,11 @@
 {
-    "users": [
-        { "id": "23", "firstName": "Bill", "age": 20 },
-        { "id": "40", "firstName": "George", "age": 24 }
-    ]
+  "users": [
+    { "id": "23", "firstName": "Bill", "age": 20, "companyId": "1" },
+    { "id": "40", "firstName": "George", "age": 24, "companyId": "2" },
+    { "id": "41", "firstName": "Bob", "age": 24, "companyId": "2" }
+  ],
+  "companies": [
+    { "id": "1", "name": "Apple", "description": "tech" },
+    { "id": "2", "name": "CoStar", "description": "real estate analytics" }
+  ]
 }

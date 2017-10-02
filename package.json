@@ -17,6 +17,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    //https://39digits.com/configure-prettier-and-eslint-in-visual-studio-code/
     "format": "prettier --write '**/*.{js,jsx}'",
     "json:server": "json-server --watch db.json",
     "dev": "nodemon server.js"
